@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Estiven Mayhuay">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <link rel="stylesheet" href="main.css" type="text/css">
+  <title>Fylo</title>
+
+  <!-- boxicons -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- google fonst -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <a href="/" class="logo"><img src="./images/logo.svg" alt="logo Fylo"></a>
+
+    <!-- Menú Side Bar-->
+    <nav class="menu">
+      <li class="menu__item"><a href="#filesLink" class="menu__link"><span>Features</span><i class='bx bxs-home'></i></a></li>
+      <li class="menu__item"><a href="#productiveLink" class="menu__link"><span>Team</span><i class='bx bxs-group'></i></a></li>
+      <li class="menu__item"><a href="#accessLink" class="menu__link"><span>Sign In</span><i class='bx bx-log-in'></i></a></li>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main class="main">
+    <section class="section files" id="filesLink">
+      <div class="files__img"><img src="./images/illustration-1.svg" alt="illustration 1" class="coverImg"></div>
+      <div class="files__info">
+        <h1>All your files in one secure <br> location, accessible anywhere.</h1>
+        <p class="paragraph">Fylo stores your most important files in one secure location. Access <br> them wherever you need, share and collaborate with friends, family, <br> and co-workers.</p>
+
+        <form action="" method="" class="form" id="formStarted">
+          <input type="email" name="emailUser" id="emailUser1" placeholder="Enter your email..." required>
+          <input type="submit" value="Get Started">
+        </form>
+      </div>
+    </section>
+
+    <section class="section productive" id="productiveLink">
+      <div class="productive__img"><img src="./images/illustration-2.svg" alt="illustration 2" class="coverImg"></div>
+      <div class="productive__info">
+        <h2>Stay productive, wherever you are</h2>
+        <p class="paragraph">Never let location be an issue when accessing your files. Fylo has you <br> covered for all of your file storage needs.</p>
+        <p class="paragraph">Securely share files and folders with friends, family and colleagues for <br> live collaboration. No email attachments required!</p>
+        <div class="btnWorks">
+          <a href="#">See how Fylo woks</a>
+          <img src="./images/icon-arrow.svg" alt="icon arrow right">
+        </div>
+        <div class="card">
+          <img src="./images/icon-quotes.svg" alt="icon quote" class="quote">
+          <p class="paragraph">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+          <div class="card__person">
+            <p class="person"><img src="./images/avatar-testimonial.jpg" alt="person" class="coverImg"></p>
+            <div class="info">
+              <h3>Kyle Burton</h3>
+              <span>Founder & CEO, Huddle</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section access" id="accessLink">
+      <div class="access__info">
+        <h3>Get early access today</h3>
+        <p class="paragraph">It only takes a minute to sign up and our free starter tier is <br> extremely generous. If you have any questions, our support team <br> would be happy to help you.</p>
+      </div>
+      <div class="access__form">
+        <form action="#" class="form">
+          <input type="email" name="emailUser" id="emailUser" placeholder="email@example.com" required>
+          <input type="submit" value="Get Started For Free">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="logo--white"></p>
+    <div class="footer__contact">
+      <p class="item"><img src="./images/icon-phone.svg" alt="phone icon"><span>Phone: +1-543-123-4567</span></p>
+      <p class="item"><img src="./images/icon-email.svg" alt="email icon"><span>example@fylo.com</span></p>
+    </div>
+    <div class="footer__nav">
+      <ul class="list-1">
+        <li>About Us</li>
+        <li>Jobs</li>
+        <li>Press</li>
+        <li>Blog</li>
+      </ul>
+      <ul class="list-2">
+        <li>Contact Us</li>
+        <li>Terms</li>
+        <li>Privacy</li>
+      </ul>
+    </div>
+    <div class="footer__social">
+      <p class="social"><i class='bx bxl-facebook'></i></p>
+      <p class="social"><i class='bx bxl-twitter'></i></p>
+      <p class="social"><i class='bx bxl-instagram'></i></p>
+    </div>
+  </footer>
+
+  <p class="btnUP"><i class='bx bx-up-arrow-circle'></i></p>
+  <script src="app.js"></script>
+</body>
+</html>
