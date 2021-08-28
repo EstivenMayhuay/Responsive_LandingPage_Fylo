@@ -11,3 +11,7 @@ Creación de una landing page usando **HTML, CSS & JS**, puedes ver el sitio en:
   * Flexbox
 * **JavaScript**
   * Validar email
+
+## Views
+
+![desktop flylo](./images/desktop-fylo.png)
