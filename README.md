@@ -1,6 +1,6 @@
 # ![logo fylo](./images/logo.svg)
 
-Creación de una landing page usando **HTML, CSS & JS**, puedes ver el sitio en: [https://estivenm99.github.io/Responsive_LandingPage_Fylo/](https://estivenm99.github.io/Responsive_LandingPage_Fylo/)
+Creación de una landing page usando **HTML, CSS & JS**, puedes ver el sitio en: [https://estivenmayhuay.github.io/Responsive_LandingPage_Fylo/](https://estivenmayhuay.github.io/Responsive_LandingPage_Fylo/)
 
 ## Técnologías Usadas
 
